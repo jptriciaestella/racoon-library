@@ -13,11 +13,10 @@
                         <p class="card-text" style="margin-bottom:15px !important;">{{$books->Author}} ({{$books->YearPublished}})</p>
                         <div class="d-flex flex-wrap justify-content-between align-items-center">
                             <small class="text-muted">{{ $books->Pages}} page(s)</small>
-                            <div class="btn-group">
-                            <a class="btn btn-sm btn-outline-success" href="{{ route ('UpdateForm', $books->id) }} ">Edit</a>
-                            <button type="button" class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Delete
-                            </button>
+                            <div class="d-flex">
+                                <a class="btn btn-sm btn-outline-success" href="{{ route ('UpdateForm', $books->id) }}">Edit</a>
+                                <div style="margin:3px"></div>
+                                <a class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"> Delete </a>
                             </div>
                         </div>
                     </div>
@@ -40,8 +39,9 @@
             <form action="{{route('DeleteBook', $books->id)}}" method="POST">
                         @csrf
                         @method('Delete')
-                <div class="btn-group">
+                <div class="d-flex">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <div style="margin:3px"></div>
                     <button type="submit" class="btn btn-danger">Delete</button>
                 </div>
             </form>
