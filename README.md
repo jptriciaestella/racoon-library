@@ -39,5 +39,3 @@ And all features should work normally, type:
 php artisan serve
 ```
 
-
-## Screenshots
