@@ -19,7 +19,7 @@ Racoon Library requires PHP, composer, and XAMPP to run.
 
 Download the code and **create .env file using the data from .env.example to use configured database and other settings**.
 
-Turn on XAMPP Apache and MySQL, and create database named 'racoon_library' on your MySQL admin. Then run these commands on your file terminal:
+Turn on XAMPP Apache and MySQL, **and create database named 'racoon_library' on your MySQL admin**. Then run these commands on your file terminal:
 
 ```sh
 composer install
