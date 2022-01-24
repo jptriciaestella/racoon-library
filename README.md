@@ -1,5 +1,5 @@
 # Racoon Library
-##### Made by Tricia Estella
+### Made by Tricia Estella
 using Laravel version 7.x
 
 Racoon Library is a library website made by PT Musang, which was done in less than a month by their one employee.
