@@ -10,7 +10,7 @@ Racoon Library is a library website made by PT Musang, which was done in less th
 - Edit existing book
 - Delete existing book
 - Have all validation needed for the book information (Title, Author, Pages, YearPublished)
-- Added Features (Add Photo to book data, view book detail)
+- Added Features (Add a photo to book data, view a book details)
 
 
 ## Installation
