@@ -17,7 +17,7 @@ Racoon Library is a library website made by PT Musang, which was done in less th
 
 Racoon Library requires PHP, composer, and XAMPP to run.
 
-Download the code and create .env file using the data from .env.example to use configured database and other settings.
+Download the code and **create .env file using the data from .env.example to use configured database and other settings**.
 
 Turn on XAMPP Apache and MySQL and run these commands on your file terminal:
 
